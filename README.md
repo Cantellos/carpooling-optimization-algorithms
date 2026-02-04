@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Algorithms](https://img.shields.io/badge/Algorithms-7-green)](https://github.com/Cantellos/carpooling-optimization-algorithms)
 
 Comparative implementation and analysis of optimization algorithms for the carpooling routing problem, focusing on minimizing total travel distance while respecting vehicle capacity constraints.
 
