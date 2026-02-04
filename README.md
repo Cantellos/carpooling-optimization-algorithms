@@ -1,13 +1,24 @@
-# Car Pooling Optimisation
+# Carpooling Route Optimisation Algorithms
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Algorithms](https://img.shields.io/badge/Algorithms-7-green)](https://github.com/Cantellos/carpooling-optimization-algorithms)
+
+Comparative implementation and analysis of optimization algorithms for the carpooling routing problem, focusing on minimizing total travel distance while respecting vehicle capacity constraints.
 
 ## Overview
 
-This project aims to optimize car pooling routes for individuals traveling to the Polo Scientifico Tecnologico UniFe. The goal is to minimize the total distance traveled by cars, considering that each car can carry up to 5 people (including the driver).
-The project explores various optimization algorithms to achieve this goal.
+This project tackles the carpooling route optimization problem for commuters traveling to Polo Scientifico Tecnologico UniFe. The objective is to minimize the total distance traveled by all vehicles while ensuring each car carries up to 5 people (including the driver). Multiple algorithmic approaches are implemented and compared, ranging from constructive greedy methods to advanced metaheuristics.
 
 ## Problem Statement
 
-Given the locations of individuals who travel daily to the Polo Scientifico Tecnologico UniFe, the objective is to determine the optimal carpooling routes that minimize the total distance traveled by all cars. Drivers are available to operate the carpooling service, while others prefer to travel as passengers. If no driver serves a passenger, they will drive alone without taking any other passengers.
+Given the locations of individuals who travel daily to a common destination (Polo Scientifico Tecnologico UniFe), determine optimal carpooling routes that minimize total distance traveled. 
+
+**Constraints:**
+- Each vehicle has a capacity of 5 people (driver + 4 passengers)
+- Drivers are available to provide carpooling service
+- Passengers who cannot be assigned to a route travel independently
+- The goal is to minimize the sum of all travel distances
 
 ## Greedy Algorithms
 
